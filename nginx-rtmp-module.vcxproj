@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{85D0328C-6CBA-4185-A7FA-EDAC7FBAFE03}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakePreprocessorDefinitions>WIN32;NDEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dash\ngx_rtmp_dash_module.c" />
+    <ClCompile Include="dash\ngx_rtmp_mp4.c" />
+    <ClCompile Include="hls\ngx_rtmp_hls_module.c" />
+    <ClCompile Include="hls\ngx_rtmp_mpegts.c" />
+    <ClCompile Include="ngx_rtmp.c" />
+    <ClCompile Include="ngx_rtmp_access_module.c" />
+    <ClCompile Include="ngx_rtmp_amf.c" />
+    <ClCompile Include="ngx_rtmp_auto_push_module.c" />
+    <ClCompile Include="ngx_rtmp_bandwidth.c" />
+    <ClCompile Include="ngx_rtmp_bitop.c" />
+    <ClCompile Include="ngx_rtmp_cmd_module.c" />
+    <ClCompile Include="ngx_rtmp_codec_module.c" />
+    <ClCompile Include="ngx_rtmp_control_module.c" />
+    <ClCompile Include="ngx_rtmp_core_module.c" />
+    <ClCompile Include="ngx_rtmp_eval.c" />
+    <ClCompile Include="ngx_rtmp_exec_module.c" />
+    <ClCompile Include="ngx_rtmp_flv_module.c" />
+    <ClCompile Include="ngx_rtmp_handler.c" />
+    <ClCompile Include="ngx_rtmp_handshake.c" />
+    <ClCompile Include="ngx_rtmp_init.c" />
+    <ClCompile Include="ngx_rtmp_limit_module.c" />
+    <ClCompile Include="ngx_rtmp_live_module.c" />
+    <ClCompile Include="ngx_rtmp_log_module.c" />
+    <ClCompile Include="ngx_rtmp_mp4_module.c" />
+    <ClCompile Include="ngx_rtmp_netcall_module.c" />
+    <ClCompile Include="ngx_rtmp_notify_module.c" />
+    <ClCompile Include="ngx_rtmp_play_module.c" />
+    <ClCompile Include="ngx_rtmp_proxy_protocol.c" />
+    <ClCompile Include="ngx_rtmp_receive.c" />
+    <ClCompile Include="ngx_rtmp_record_module.c" />
+    <ClCompile Include="ngx_rtmp_relay_module.c" />
+    <ClCompile Include="ngx_rtmp_send.c" />
+    <ClCompile Include="ngx_rtmp_shared.c" />
+    <ClCompile Include="ngx_rtmp_stat_module.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dash\ngx_rtmp_mp4.h" />
+    <ClInclude Include="hls\ngx_rtmp_mpegts.h" />
+    <ClInclude Include="ngx_rtmp.h" />
+    <ClInclude Include="ngx_rtmp_amf.h" />
+    <ClInclude Include="ngx_rtmp_bandwidth.h" />
+    <ClInclude Include="ngx_rtmp_bitop.h" />
+    <ClInclude Include="ngx_rtmp_cmd_module.h" />
+    <ClInclude Include="ngx_rtmp_codec_module.h" />
+    <ClInclude Include="ngx_rtmp_eval.h" />
+    <ClInclude Include="ngx_rtmp_live_module.h" />
+    <ClInclude Include="ngx_rtmp_netcall_module.h" />
+    <ClInclude Include="ngx_rtmp_play_module.h" />
+    <ClInclude Include="ngx_rtmp_proxy_protocol.h" />
+    <ClInclude Include="ngx_rtmp_record_module.h" />
+    <ClInclude Include="ngx_rtmp_relay_module.h" />
+    <ClInclude Include="ngx_rtmp_streams.h" />
+    <ClInclude Include="ngx_rtmp_version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\rtmp-publisher\player.html" />
+    <None Include="test\rtmp-publisher\publisher.html" />
+    <None Include="test\www\index.html" />
+    <None Include="test\www\record.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

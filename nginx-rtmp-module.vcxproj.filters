@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ngx_rtmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_access_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_amf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_auto_push_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_bandwidth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_bitop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_cmd_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_codec_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_control_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_core_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_eval.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_exec_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_flv_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_handler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_handshake.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_limit_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_live_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_log_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_mp4_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_netcall_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_notify_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_play_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_proxy_protocol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_receive.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_record_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_relay_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_send.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ngx_rtmp_stat_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dash\ngx_rtmp_dash_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dash\ngx_rtmp_mp4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hls\ngx_rtmp_hls_module.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hls\ngx_rtmp_mpegts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ngx_rtmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_amf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_bandwidth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_bitop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_cmd_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_codec_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_eval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_live_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_netcall_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_play_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_proxy_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_record_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_relay_module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_streams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ngx_rtmp_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dash\ngx_rtmp_mp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hls\ngx_rtmp_mpegts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test\rtmp-publisher\player.html" />
+    <None Include="test\rtmp-publisher\publisher.html" />
+    <None Include="test\www\index.html" />
+    <None Include="test\www\record.html" />
+  </ItemGroup>
+</Project>
