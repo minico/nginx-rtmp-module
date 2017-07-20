@@ -1,2 +1,2 @@
 Documentation is available here:
-https://github.com/arut/nginx-rtmp-module/wiki
+https://github.com/arut/nginx-rtmp-module/wikidf
